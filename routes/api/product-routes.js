@@ -38,7 +38,7 @@ router.get('/:id', (req, res) => {
     ]
   }).then((productData) => {
       if (!productData) {
-        res.status(404).json({ message: "No product found" });
+        res.status(404).json({ message: "Product cannot be found" });
         return;
       }
       res.json(productData);
@@ -51,9 +51,9 @@ router.get('/:id', (req, res) => {
   
 });
 
-// create new product
+// POST rout to create new product
 router.post('/', (req, res) => {
-  /* req.body should look like this...
+  /* req.body looks like this...
     {
       product_name: "Basketball",
       price: 200.00,
@@ -83,7 +83,7 @@ router.post('/', (req, res) => {
     });
 });
 
-// update product
+// PUT route to update product
 router.put('/:id', (req, res) => {
   // update product data
   Product.update(req.body, {
