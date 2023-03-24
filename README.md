@@ -1,9 +1,10 @@
-# An E-commerce App Backend
+# My E-commerce App (Backend)
 
 
 ## Description
 
-This is the back end for an e-commerce site, created using [Express.js API](https://expressjs.com/en/api.html) and configured with [Sequelize](https://sequelize.org/docs/v6/getting-started/) to interact with a MySQL database.
+This is the back end for an e-commerce site, created using [Express.js API](https://expressjs.com/en/api.html) and configured with [Sequelize](https://sequelize.org/docs/v6/getting-started/) to interact with a MySQL database. The purpose of this project is to create a backend for my e-commerce website with latest technologies to understand the fundamental architecture of e-commerce websites and compete with other e-commerce companies. 
+
 
 ## Walkthrough Video
 This is a backend application, therefore will not be deployed. Here is the [link](https://drive.google.com/file/d/1s6aVixBZvn7HD6kKfANeYX4WII3avUOJ/view) to a walkthrough video that demonstrates the functionality of the app. 
