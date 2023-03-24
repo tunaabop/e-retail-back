@@ -7,13 +7,10 @@ This is the back end for an e-commerce site, created using [Express.js API](http
 
 
 ## Walkthrough Video
+
 This is a backend application, therefore will not be deployed. Here is the [link](https://drive.google.com/file/d/1divYGR9IdVTTmsznYCHRzQco7USGgX4X/view) to a walkthrough video that demonstrates the functionality of the app. 
 
-
-## Screenshot
-
-![Image showing a screenshot of walkthrough video](./deliverable/screenshot.png)
-
+![Image showing a screenshot of walkthrough video](./deliverable/ecomm_demo.gif)
 
 ## How to Contribute <a name="contribute"/>
 
